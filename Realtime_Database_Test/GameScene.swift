@@ -12,7 +12,9 @@ import Firebase
 
 class GameScene: SKScene {
     
-    let currentPlayer = 1
+    let currentPlayer = 2
+    
+    //Test
     
     let rootRef = Database.database().reference()
     let ballRefX = Database.database().reference().child("ball").child("position").child("x");
